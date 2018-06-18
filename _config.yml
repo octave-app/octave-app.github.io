@@ -1,0 +1,10 @@
+theme: jekyll-theme-slate
+
+title: Octave.app
+
+description: A native Mac app distribution of GNU Octave
+
+footer-links:
+  github: octave-app/octave-app
+
+permalink: /:year/:month/:day/:title:output_ext
