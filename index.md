@@ -1,7 +1,7 @@
 Octave.app
 ==========
 
-Octave.app is a project to bundle and distribute [GNU Octave](https://www.gnu.org/software/octave/) as a native Mac GUI application.
+Octave.app is a project to bundle and distribute [GNU Octave](https://www.gnu.org/software/octave/) as a native Mac GUI application. This makes it easy to install and use GNU Octave on Mac.
 
 We are not an official GNU project, or part of GNU Octave. We are a rag-tag band of misfits who've written a tool to download and build GNU Octave and its dependencies and bundle them as a Mac app.
 
