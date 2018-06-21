@@ -105,9 +105,10 @@ We customize the following formulae. This means that once a versioned formula is
 * `gnuplot`
   * Make `--with-cairo --with-qt` the defaults.
 * `qscintilla2`
-  * Make `--without-python --without-plugin` the defaults.
-    * TODO: That `--without-python` just turns off Python 3 bindings. Can we also turn off Python 2 bindings?
+  * Make `--without-python --without-python2 --without-plugin` the defaults.
     * As of June 2018 `--without-plugin` is already the default in the current `qscintilla2` formula in `homebrew-core`. This can probably be removed.
+  * Make the `pyqt` and `sip` dependencies conditional on Python usage.
+    * This allows us to build a Python-free Octave.
 
 #  Defining a variant
 
