@@ -11,6 +11,12 @@ Our goal is to make ready-to-use Octave.app installers available to the public.
 
 All Octave.app releases are available on the [Downloads](/Download.html) page.
 
+## Requirements
+
+* macOS
+* Java 1.8
+* MacTeX, if you want the **info** command to work properly. (I think.)
+
 ## License
 
 Most of Octave.app's code is GPL, with the exception of its Homebrew formula files, which are BSD 2-Clause License.

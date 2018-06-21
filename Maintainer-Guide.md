@@ -5,27 +5,57 @@ This document contains information for maintainers and developers of Octave.app.
 
 # Building Octave.app
 
+## Requirements
+
+* macOS
+  * TODO: Determine which version we're going to release against. Should be an older one for back-compatibility
+* Xcode (needed for DMG creation)
+* MacTeX (needed for document creation)
+* Java 1.8 JDK
+
+## Process
+
 To build a distribution of Octave.app:
 
 * Install Homebrew on your machine in the default prefix.
   * (This is necessary to get some external tools.)
-* Clone the `octave-app/octave-app-bundler` repo, recursively.
+* Clone the `octave-app/octave-app-bundler` repo.
   * `git clone https://github.com/octave-app/octave-app-bundler --recursive`
+  * You must do `--recursive` to pick up required submodules.
 * Delete any installed `/Applications/Octave.app` you might have.
 * Run `./bundle_octave` inside the repo.
 
-See `./bundle_octave --help` for more options. You might want to use:
+By default, `bundle_octave` will build default variant with the latest version of Octave.
 
-  * `-f`/`--octave-formula` to use an alternate Octave.app Octave formula, such as `octave-unversioned`. (Build variants like OpenBLAS and CLI-only will also go here, probably.)
-  * `-u`/`--build-suffix` to do a special release, such as a prerelease or a patch.
-  * `-V`/`--octave-version` to select the version of Octave to build. This requires the version-specific of `octave` (or whatever you specified with `-f`) to exist, and be committed to `homebrew-octave-app`.
+See `./bundle_octave --help` for more options.
 
+### Building a variant
+
+Octave.app defines "variants" of the Octave build. These are builds that vary in their build options, the dependencies they are built with, or other aspects. For example, if we decide to support an OpenBLAS Octave build, that will be an "openblas" variant.
+
+Some variants are for public consumption, and some are for internal debugging use.
+
+Use the `-a`/`--variant` option of `bundle_octave` to build a variant.
+
+Each variant is defined in a formula named `octave-<variant>` (possibly with versioned formulae named `octave-<variant>@<version>`). The variant name is included in the name of the built application.
+
+Defined variants:
+
+  * `unversioned` - uses unversioned formulae for `octave` and all its dependencies. This is for internal debugging use, and not for public distribution.
+
+### Building a different version
+
+To build a different version of Octave, use the `-V`/`--octave-version` to select the version of Octave to build. This version must be defined in an `octave[-<variant>]@<version>` formula.
 
 ### Single-threaded builds for debugging
 
 If you want to do your compilations single-threaded, which will be slower but produce more readable output, set the environment variable HOMEBREW_MAKE_JOBS=1 before running bundle_octave.
 
 You don't want to do this normally, because it will be _slow_, but it's useful in hunting down error messages from faild big builds like `gcc`.
+
+# Making a distribution
+
+To make a distribution, build Octave.app as described above. Then test your built application following the [docs/Testing-Script.md](https://github.com/octave-app/octave-app-bundler/blob/master/docs/Testing-Script.md) found in the `octave-app-bundler` repo.
 
 # Tools
 
@@ -62,7 +92,13 @@ python@2
 
 The plain `octave` run produces nothing as output; this is expected, because the unversioned `octave` formula does not have versioned dependencies.
 
-##  Formula customizations
+## create-dmg
+
+We maintain our own fork of `create-dmg` at [octave-app/create-dmg](https://github.com/octave-app/create-dmg). It contains enhancements that we use in creating our installer DMG. It is included as a submodule in `octave-app-bundler`, so you don't need to fetch it separately.
+
+#  Formula customizations
+
+We use several customized formulae for building Octave. The base variants of the customized formulae are located in [octave-app/homebrew-octave-app-versions](https://github.com/octave-app/homebrew-octave-app-versions). (They are then grabbed by `brew octave-app-grab` into `homebrew-octave-app`.)
 
 We customize the following formulae. This means that once a versioned formula is created, it needs to be hand-tweaked by a maintainer, and then cannot be regenerated from the base formula.
 
@@ -72,11 +108,12 @@ We customize the following formulae. This means that once a versioned formula is
   * Make `--without-python --without-plugin` the defaults.
     * TODO: That `--without-python` just turns off Python 3 bindings. Can we also turn off Python 2 bindings?
     * As of June 2018 `--without-plugin` is already the default in the current `qscintilla2` formula in `homebrew-core`. This can probably be removed.
-* `cmake`
-  * Make the `sphinx-doc` dependency unconditional
-    * This is because it's not being picked up properly by `brew` when you do `brew install octave` and `cmake` gets picked up as a recursive dependency. Looks like a `brew` dependency resolution bug.
 
+#  Defining a variant
 
+To define a new variant, create an `octave-<variant>.rb` formula in `homebrew-octave-app-bases`. Then run `brew octave-app-grab octave-<variant>` to freeze it to a particular set of versions.
+
+You can also skip the first step, and manually create an `octave-<variant>@<version>.rb` formula in `homebrew-octave-app`.
 
 # Style Guide
 
