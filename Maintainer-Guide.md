@@ -8,10 +8,10 @@ This document contains information for maintainers and developers of Octave.app.
 ## Requirements
 
 * macOS
-  * TODO: Determine which version we're going to release against. Should be an older one for back-compatibility
+  * TODO: Determine which version we're going to build under. Should probably be an older one for back-compatibility.
 * Xcode (needed for DMG creation)
 * MacTeX (needed for document creation)
-* Java 1.8 JDK
+* Java 1.8 JDK u171
 
 ## Process
 
