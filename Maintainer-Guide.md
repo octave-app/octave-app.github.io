@@ -102,6 +102,8 @@ We use several customized formulae for building Octave. The base variants of the
 
 We customize the following formulae. This means that once a versioned formula is created, it needs to be hand-tweaked by a maintainer, and then cannot be regenerated from the base formula.
 
+* `octave` and variants
+  * Build against arpack 3.5 instead of arpack 3.6, to avoid an `eigs.m` bug.
 * `gnuplot`
   * Make `--with-cairo --with-qt` the defaults.
 * `qt`
