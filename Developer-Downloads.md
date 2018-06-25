@@ -5,7 +5,28 @@ These are downloads for developers and testers of Octave.app. This page contains
 
 If you are an Octave.app user, you probably want to go to our [main Download page](/Download.html) instead.
 
-####  4.4.0-beta1
+##  4.4.0-beta2
+
+This one might be ready for prime time! Test suite failures are all cleaned up now. -apjanke
+
+[Octave-4.4.0-beta2.dmg](https://github.com/octave-app/octave-app/releases/download/untagged-4e9d0ab25492be932368/Octave-4.4.0-beta2.dmg)
+
+###  Changes
+
+* [Test suite failures](https://github.com/octave-app/octave-app-bundler/issues/17) fixed.
+* [Hacked Qt](https://github.com/octave-app/octave-app-bundler/issues/13) to avoid `FSEventStreamFlushSync(): failed assertion '(SInt64)last_id > 0LL'` messages
+* VERSIONS now includes [source code links](https://github.com/octave-app/homebrew-octave-app/commit/1af9601aad55950276d1ebf78e9d10a46a72eb02) for all packages, for GPL compliance
+* COPYING now [includes license info for all the dependency packages](https://github.com/octave-app/octave-app-bundler/issues/27)
+* [Fixed Ghostscript initialization](https://github.com/octave-app/octave-app-bundler/issues/20)
+* [Cairo terminal is enabled](https://github.com/octave-app/octave-app-bundler/issues/25)
+* Cosmetic fixes
+
+###  Known bugs
+
+* [#33 Test failures during "make check"](https://github.com/octave-app/octave-app-bundler/issues/33)
+* [#21 Intermittent hang during test suite in GUI](https://github.com/octave-app/octave-app-bundler/issues/21)
+
+##  4.4.0-beta1
 
 Published Thu Jun 21 09:41:04 EDT 2018.
 
