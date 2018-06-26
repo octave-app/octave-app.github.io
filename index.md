@@ -11,6 +11,8 @@ Our goal is to make ready-to-use Octave.app installers available to the public.
 
 All Octave.app releases are available on the [Downloads](/Download.html) page.
 
+When running Octave.app for the first time, instead of just double-clicking it, you will need to right-click on it and choose "Open", so you get a dialog asking you if you really want to run it, since it's from an unidentified developer. This is because the app is not signed. This is something we're working on.
+
 ## Requirements
 
 * macOS
