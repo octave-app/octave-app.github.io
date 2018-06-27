@@ -38,6 +38,19 @@ brew tap octave-app/octave-app
 brew cask install octave-app
 ```
 
+### Installing directly with Homebrew
+
+NOTE: This is not the normal way to install Octave.app! Unless you have a particular reason for doing this, please just [download and install the regular Octave.app distribution](/Download.html).
+
+If you want to build and install our Qt-enabled Octave build via Homebrew instead of using the Octave.app distribution, you can do this by setting up Homebrew as normal, and doing the following:
+
+```
+brew tap octave-app/octave-app-bases
+brew install octave-octave-app
+```
+
+If you have a previous `octave` build from the regular Homebrew or [dpo/openblas](https://github.com/dpo/homebrew-openblas) formulae, you need to unlink it first with `brew unlink octave`.
+
 ###  People
 
 [Sebastian Schoeps](https://github.com/schoeps) is the original author and maintainer.

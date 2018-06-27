@@ -67,6 +67,8 @@ You don't want to do this normally, because it will be _slow_, but it's useful i
 
 To make a distribution, build Octave.app as described above. Then test your built application following the [docs/Testing-Script.md](https://github.com/octave-app/octave-app-bundler/blob/master/docs/Testing-Script.md) found in the `octave-app-bundler` repo.
 
+Also examine the `~/octave-app-fntest.log` output to check for test suite failures, and see if anything else seems amiss.
+
 # Tools
 
 ##  Custom brew commands
