@@ -27,6 +27,17 @@ Most of Octave.app's code is GPL, with the exception of its Homebrew formula fil
 
 GNU Octave itself is GPL. Its dependencies are available under various FLOSS licenses.
 
+## Alternate Installations
+
+### Installing with Homebrew Cask
+
+To install Octave.app using Homebrew Cask:
+
+```
+brew tap octave-app/octave-app
+brew cask install octave-app
+```
+
 ###  People
 
 [Sebastian Schoeps](https://github.com/schoeps) is the original author and maintainer.
