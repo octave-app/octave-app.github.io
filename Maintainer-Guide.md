@@ -15,11 +15,13 @@ This document contains information for maintainers and developers of Octave.app.
 
 ## System Setup
 
-Before doing a bunch of Octave.app builds, you should probably turn off Time Machine backups for `/Applications`, to avoid filling up your disk and hosing your system [as described here](https://github.com/octave-app/octave-app-bundler/issues/35). You should probably also add the `build/` directory under your `octave-app-bundler` repo checkout to the Time Machine excludes list as well.
+Before doing a bunch of Octave.app builds, you may wish to turn off Time Machine backups for `/Applications`, to avoid filling up your disk and hosing your system [as described here](https://github.com/octave-app/octave-app-bundler/issues/35). You should probably also add the `build/` directory under your `octave-app-bundler` repo checkout to the Time Machine excludes list as well.
 
 (I'm just guessing that it's Time Machine backups that filled up my disk, but it seems like a likely culprit.)
 
 To exclude a directory from Time Machine backups, go to Apple Menu > System Preferences > Time Machine > Options and click the "+" sign button to add a directory.
+
+Don't forget to turn Time Machine backups back on for `/Applications` after you're done doing your bunch of builds.
 
 Then install Xcode, MacTex, and Java 1.8 JDK u171 on your machine.
 
