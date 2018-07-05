@@ -5,6 +5,20 @@ These are downloads for developers and testers of Octave.app. This page contains
 
 If you are an Octave.app user, you probably want to go to our [main Download page](/Download.html) instead.
 
+##  4.4.0-beta4
+
+Code signing enabled! Now you can open the app by just double-clicking it.
+
+[Octave-4.4.0-beta4.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta4/Octave-4.4.0-beta4.dmg)
+
+##  4.4.0-beta3
+
+Getting closer.
+
+This one fixes a test failure in `make check` and gets rid of the double Dock icons.
+
+[Octave-4.4.0-beta3.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta3/Octave-4.4.0-beta3.dmg)
+
 ##  4.4.0-beta2
 
 This one might be ready for prime time! Test suite failures are all cleaned up now. -apjanke
