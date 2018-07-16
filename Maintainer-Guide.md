@@ -127,6 +127,8 @@ We customize the following formulae. This means that once a versioned formula is
     * This allows us to build a Python-free Octave.
 * `gnu-tar`
   * Install with default name `tar`, no `gtar` prefix.
+* `gcc`
+  * Remove the Homebrew-specific `--with-bugurl` option
 
 #  Defining a variant
 
