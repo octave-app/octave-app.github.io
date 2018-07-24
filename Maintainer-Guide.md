@@ -128,7 +128,13 @@ We customize the following formulae. This means that once a versioned formula is
 * `gnu-tar`
   * Install with default name `tar`, no `gtar` prefix.
 * `gcc`
-  * Remove the Homebrew-specific `--with-bugurl` option
+  * Remove the Homebrew-specific `--with-bugurl` option.
+* `gmp`
+  * Always build for core2-apple-darwin, instead of just when building bottle.
+* `fftw`
+  * Unconditionally disable AVX instructions, for portability.
+* `openblas`
+  * Unconditionally enable DYNAMIC_ARCH
 
 #  Defining a variant
 
