@@ -7,13 +7,26 @@ This document contains information for maintainers and developers of Octave.app.
 
 ## Requirements
 
-* macOS
-  * TODO: Determine which version we're going to build under. Should probably be an older one for back-compatibility.
-* Xcode (needed for DMG creation)
-* MacTeX (needed for document creation)
+* macOS 10.11 El Capitan
+* Xcode 8.2.1 (needed for DMG creation)
+* MacTeX 2018 (needed for document creation)
 * Java 1.8 JDK u171
 
+The particular versions used here a determined by:
+* The latest GCC does not work on macOS 10.9
+* So we tentatively picked 10.11 as our OS X version
+* Xcode 8.2.1 is the latest Xcode to work on 10.11
+* MacTex 2018 works on
+* Java 1.8 is the current LTS ("Long Term Support") release of Java
+ * u171 is the latest update of Java 1.8
+
+You need to use these exact versions to produce the right build! In particular, we use this older version of OS X to support compatibility with multiple OS X versions. The version of OS X you build on is the earliest version that the resulting Octave.app will run on.
+
+If you build using different versions of OS X, Java, or other requirements, the build will still succeed, but it will produce a product different from what we want to be distributing.
+
 ## System Setup
+
+Because we're using an older version of OS X to build Octave.app, you probably want to create a virtual machine to do the build in.
 
 Before doing a bunch of Octave.app builds, you may wish to turn off Time Machine backups for `/Applications`, to avoid filling up your disk and hosing your system [as described here](https://github.com/octave-app/octave-app-bundler/issues/35). You should probably also add the `build/` directory under your `octave-app-bundler` repo checkout to the Time Machine excludes list as well.
 
@@ -23,7 +36,7 @@ To exclude a directory from Time Machine backups, go to Apple Menu > System Pref
 
 Don't forget to turn Time Machine backups back on for `/Applications` after you're done doing your bunch of builds.
 
-Then install Xcode, MacTex, and Java 1.8 JDK u171 on your machine.
+Then install Xcode, MacTex, and Java JDK on your machine.
 
 ## Process
 

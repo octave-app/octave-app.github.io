@@ -15,7 +15,7 @@ When running Octave.app for the first time, instead of just double-clicking it, 
 
 ## Requirements
 
-* macOS
+* macOS, version 10.11 El Capitan or newer
 * Java JDK 1.8 u171, if you want to use Java
 * MacTeX, if you want the **info** command to work properly
 
