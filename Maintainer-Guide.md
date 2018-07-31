@@ -10,7 +10,7 @@ This document contains information for maintainers and developers of Octave.app.
 * macOS 10.11 El Capitan
 * Xcode 8.2.1 (needed for DMG creation)
 * MacTeX 2018 (needed for document creation)
-* Java 1.8 JDK u171
+* Java 1.8 JDK u181
 
 The particular versions used here a determined by:
 * The latest GCC does not work on macOS 10.9
@@ -18,7 +18,7 @@ The particular versions used here a determined by:
 * Xcode 8.2.1 is the latest Xcode to work on 10.11
 * MacTex 2018 works on
 * Java 1.8 is the current LTS ("Long Term Support") release of Java
- * u171 is the latest update of Java 1.8
+ * u181 is the latest update of Java 1.8
 
 You need to use these exact versions to produce the right build! In particular, we use this older version of OS X to support compatibility with multiple OS X versions. The version of OS X you build on is the earliest version that the resulting Octave.app will run on.
 

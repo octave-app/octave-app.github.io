@@ -16,10 +16,10 @@ When running Octave.app for the first time, instead of just double-clicking it, 
 ## Requirements
 
 * macOS, version 10.11 El Capitan or newer
-* Java JDK 1.8 u171, if you want to use Java
+* Java JDK 1.8 u181, if you want to use Java
 * MacTeX, if you want the **info** command to work properly
 
-The Java 1.8 you have installed must be exactly `jdk1.8.0_171.jdk`, due to how the Octave build and Java detection system works. This is the latest release of JDK 1.8. You can download it [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+The Java 1.8 you have installed must be exactly `jdk1.8.0_181.jdk`, due to how the Octave build and Java detection system works. This is the latest release of JDK 1.8. You can download it [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
 ## License
 
