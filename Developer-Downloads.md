@@ -5,9 +5,16 @@ These are downloads for developers and testers of Octave.app. This page contains
 
 If you are an Octave.app user, you probably want to go to our [main Download page](/Download.html) instead.
 
+##  4.4.0 RC1
+
+Release candidate for Octave.app 4.4.0.
+
+[Octave-4.4.0-rc1.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-rc1/Octave-4.4.0-rc1.dmg)
+
 ##  4.4.0-beta4
 
-Code signing enabled! Now you can open the app by just double-clicking it.
+<strike>Code signing enabled! Now you can open the app by just double-clicking 
+it.</strike> The code signing was broken.
 
 [Octave-4.4.0-beta4.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta4/Octave-4.4.0-beta4.dmg)
 

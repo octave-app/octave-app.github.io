@@ -19,10 +19,11 @@ All that being said, here are the downloads:
 
 ## Beta Releases
 
-###  Octave 4.4.0 Beta 4
+###  Octave 4.4.0 RC1
 
-[Octave-4.4.0-beta4.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta4/Octave-4.4.0-beta4.dmg)
+[Octave-4.4.0-rc1.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-rc1/Octave-4.4.0-rc1.dmg)
 
 Known bugs:
 
 * Test suite may hang when run in GUI [Bug #21](https://github.com/octave-app/octave-app-bundler/issues/21)
+* octfiles are not compatible with Octaves installed at different paths [Bug #43](https://github.com/octave-app/octave-app-bundler/issues/43)
