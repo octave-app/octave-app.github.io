@@ -5,6 +5,30 @@ These are downloads for developers and testers of Octave.app. This page contains
 
 If you are an Octave.app user, you probably want to go to our [main Download page](/Download.html) instead.
 
+##  4.4.0-beta10
+
+[Octave-4.4.0-beta10.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta10/Octave-4.4.0-beta10.dmg)
+
+### Changes
+
+* Fixes the wrong-architecture build issue with RC1 and beta9.
+* Build size size is back to normal.
+
+##  4.4.0-beta9
+
+[Octave-4.4.0-beta9.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta9/Octave-4.4.0-beta9.dmg)
+
+### Changes
+
+* Fixes the Sundias/OpenBLAS dependency.
+* OOPS: Introduces a regression in the build architecture.
+
+##  4.4.0-beta8
+
+Fixes the wrong-architecture build that causes crashes on older Macs.
+
+[Octave-4.4.0-beta8.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta8/Octave-4.4.0-beta8.dmg)
+
 ##  4.4.0 RC1
 
 Release candidate for Octave.app 4.4.0.
