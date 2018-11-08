@@ -19,9 +19,9 @@ All that being said, here are the downloads:
 
 ## Beta Releases
 
-###  Octave 4.4.0 Beta 10
+###  Octave 4.4.0 RC 2
 
-[Octave-4.4.0-beta10.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta10/Octave-4.4.0-beta10.dmg)
+[Octave-4.4.0-RC2.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-rc2/Octave-4.4.0-RC2.dmg)
 
 Known bugs:
 

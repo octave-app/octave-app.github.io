@@ -5,6 +5,14 @@ These are downloads for developers and testers of Octave.app. This page contains
 
 If you are an Octave.app user, you probably want to go to our [main Download page](/Download.html) instead.
 
+##  4.4.0 RC2
+
+Release candidate for Octave.app 4.4.0.
+
+[Octave-4.4.0-RC2.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-rc2/Octave-4.4.0-RC2.dmg)
+
+This is the same as beta10, just re-labeled as a Release Candidate.
+
 ##  4.4.0-beta10
 
 [Octave-4.4.0-beta10.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta10/Octave-4.4.0-beta10.dmg)
@@ -35,27 +43,6 @@ Release candidate for Octave.app 4.4.0.
 
 [Octave-4.4.0-rc1.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-rc1/Octave-4.4.0-rc1.dmg)
 
-##  4.4.0-beta4
-
-<strike>Code signing enabled! Now you can open the app by just double-clicking 
-it.</strike> The code signing was broken.
-
-[Octave-4.4.0-beta4.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta4/Octave-4.4.0-beta4.dmg)
-
-##  4.4.0-beta3
-
-Getting closer.
-
-This one fixes a test failure in `make check` and gets rid of the double Dock icons.
-
-[Octave-4.4.0-beta3.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta3/Octave-4.4.0-beta3.dmg)
-
-##  4.4.0-beta2
-
-This one might be ready for prime time! Test suite failures are all cleaned up now. -apjanke
-
-[Octave-4.4.0-beta2.dmg](https://github.com/octave-app/octave-app/releases/download/untagged-4e9d0ab25492be932368/Octave-4.4.0-beta2.dmg)
-
 ###  Changes
 
 * [Test suite failures](https://github.com/octave-app/octave-app-bundler/issues/17) fixed.
@@ -70,11 +57,3 @@ This one might be ready for prime time! Test suite failures are all cleaned up n
 
 * [#33 Test failures during "make check"](https://github.com/octave-app/octave-app-bundler/issues/33)
 * [#21 Intermittent hang during test suite in GUI](https://github.com/octave-app/octave-app-bundler/issues/21)
-
-##  4.4.0-beta1
-
-Published Thu Jun 21 09:41:04 EDT 2018.
-
-[Octave-4.4.0-beta1.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta1/Octave-4.4.0-beta1.dmg)
-
-Known to have bugs: crashes during the test suite.
