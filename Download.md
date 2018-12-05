@@ -13,7 +13,7 @@ We're working on fixing this by getting signed releases. Sorry for the inconveni
 
 ###  Octave 4.4.0
 
-[Octave-4.4.0.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0/Octave-4.4.0.dmg)
+Download: [Octave-4.4.0.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0/Octave-4.4.0.dmg)
 
 [4.4.0 Release Notes](https://www.gnu.org/software/octave/NEWS-4.4.html)
 
