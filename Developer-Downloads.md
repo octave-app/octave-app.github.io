@@ -5,6 +5,12 @@ These are downloads for developers and testers of Octave.app. This page contains
 
 If you are an Octave.app user, you probably want to go to our [main Download page](/Download.html) instead.
 
+##  4.4.0
+
+Final release for Octave.app 4.4.0.
+
+[Octave-4.4.0-RC2.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0/Octave-4.4.0.dmg)
+
 ##  4.4.0 RC2
 
 Release candidate for Octave.app 4.4.0.
