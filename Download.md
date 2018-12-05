@@ -15,6 +15,8 @@ We're working on fixing this by getting signed releases. Sorry for the inconveni
 
 [Octave-4.4.0.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0/Octave-4.4.0.dmg)
 
+[4.4.0 Release Notes](https://www.gnu.org/software/octave/NEWS-4.4.html)
+
 Java requirements:
 
 The Java 1.8 you have installed must be exactly `jdk1.8.0_181.jdk`, due to how the Octave build and Java detection system works. (This was the latest release of JDK 1.8 at the time Octave.app 4.4.0 was built.) You can download it [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
