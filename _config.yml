@@ -8,3 +8,6 @@ footer-links:
   github: octave-app/octave-app
 
 permalink: /:year/:month/:day/:title:output_ext
+
+plugins:
+  - jekyll-feed
