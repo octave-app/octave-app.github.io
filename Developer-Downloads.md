@@ -11,7 +11,7 @@ Beta for Octave.app 4.4.1.
 
 [Octave-4.4.1-beta2.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-beta2/Octave-4.4.1-beta2.dmg)
 
-### Changes
+#### Changes
 
 * Adds custom `octave_app_diagnostic_dump` function.
 
@@ -39,7 +39,7 @@ This is the same as beta10, just re-labeled as a Release Candidate.
 
 [Octave-4.4.0-beta10.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta10/Octave-4.4.0-beta10.dmg)
 
-### Changes
+#### Changes
 
 * Fixes the wrong-architecture build issue with RC1 and beta9.
 * Build size size is back to normal.
@@ -48,7 +48,7 @@ This is the same as beta10, just re-labeled as a Release Candidate.
 
 [Octave-4.4.0-beta9.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-beta9/Octave-4.4.0-beta9.dmg)
 
-### Changes
+#### Changes
 
 * Fixes the Sundias/OpenBLAS dependency.
 * OOPS: Introduces a regression in the build architecture.
@@ -65,7 +65,7 @@ Release candidate for Octave.app 4.4.0.
 
 [Octave-4.4.0-rc1.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0-rc1/Octave-4.4.0-rc1.dmg)
 
-###  Changes
+####  Changes
 
 * [Test suite failures](https://github.com/octave-app/octave-app-bundler/issues/17) fixed.
 * [Hacked Qt](https://github.com/octave-app/octave-app-bundler/issues/13) to avoid `FSEventStreamFlushSync(): failed assertion '(SInt64)last_id > 0LL'` messages
@@ -75,7 +75,7 @@ Release candidate for Octave.app 4.4.0.
 * [Cairo terminal is enabled](https://github.com/octave-app/octave-app-bundler/issues/25)
 * Cosmetic fixes
 
-###  Known bugs
+####  Known bugs
 
 * [#33 Test failures during "make check"](https://github.com/octave-app/octave-app-bundler/issues/33)
 * [#21 Intermittent hang during test suite in GUI](https://github.com/octave-app/octave-app-bundler/issues/21)
