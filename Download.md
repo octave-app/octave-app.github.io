@@ -3,6 +3,8 @@ Octave.app Downloads
 
 This page contains all the releases of Octave.app. If you're not sure which one to get, just grab the latest version, from the top of the page.
 
+For betas and prereleases, see [Developer Downloads](/Developer-Downloads.html).
+
 ## Installation Notes
 
 Our apps are not signed yet. This means that the first time you run them, you must right-click Octave.app and choose "Open" instead of just double-clicking it, and then choose "Run" from the dialog that pops up, when it asks you if you want to run an app from an "unkown developer".
