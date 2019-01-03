@@ -25,7 +25,7 @@ First beta for 4.4.1.
 
 Final release for Octave.app 4.4.0.
 
-[Octave-4.4.0-RC2.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0/Octave-4.4.0.dmg)
+[Octave-4.4.0.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0/Octave-4.4.0.dmg)
 
 ##  4.4.0 RC2
 
