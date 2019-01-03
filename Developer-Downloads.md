@@ -5,6 +5,22 @@ These are downloads for developers and testers of Octave.app. This page contains
 
 If you are an Octave.app user, you probably want to go to our [main Download page](/Download.html) instead.
 
+##  4.4.1 beta2
+
+Beta for Octave.app 4.4.1.
+
+[Octave-4.4.1-beta2.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-beta2/Octave-4.4.1-beta2.dmg)
+
+### Changes
+
+* Adds custom `octave_app_diagnostic_dump` function.
+
+##  4.4.1 beta1
+
+First beta for 4.4.1.
+
+[Octave-4.4.1-beta2.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-beta1/Octave-4.4.1-beta1.dmg)
+
 ##  4.4.0
 
 Final release for Octave.app 4.4.0.
