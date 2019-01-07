@@ -11,6 +11,10 @@ Beta 3 for Octave.app 4.4.1.
 
 [Octave-4.4.1-beta3.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-beta3/Octave-4.4.1-beta3.dmg)
 
+#### Changes
+
+* Fixes license info in VERSIONS file.
+
 ##  4.4.1 beta2
 
 Beta for Octave.app 4.4.1.
