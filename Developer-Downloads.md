@@ -5,6 +5,12 @@ These are downloads for developers and testers of Octave.app. This page contains
 
 If you are an Octave.app user, you probably want to go to our [main Download page](/Download.html) instead.
 
+##  4.4.1 beta3
+
+Beta 3 for Octave.app 4.4.1.
+
+[Octave-4.4.1-beta3.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-beta3/Octave-4.4.1-beta3.dmg)
+
 ##  4.4.1 beta2
 
 Beta for Octave.app 4.4.1.
