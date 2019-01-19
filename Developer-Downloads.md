@@ -11,22 +11,13 @@ Beta 7 for Octave.app 4.4.1.
 
 [Octave-4.4.1-beta7.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-beta7/Octave-4.4.1-beta7.dmg)
 
-#### Changes
-
-* Built against Oracle JDK 8u201 instead of 8u191.
-* Octave.app build info is included in `ver` output.
-
-##  4.4.1 beta5
-
-Beta 5 for Octave.app 4.4.1.
-
-[Octave-4.4.1-beta5.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-beta5/Octave-4.4.1-beta5.dmg)
-
 This one is significant.
 
-#### Changes
+#### Changes (since beta4)
 
 * Revert from our hacked Qt back to vanilla Qt in an effort to clear up some crashes and hangs related to saving files from the GUI file editor while you're stopped in them in the debugger.
+* Built against Oracle JDK 8u201 instead of 8u191.
+* Octave.app build info is included in `ver` output.
 
 ##  4.4.1 beta4
 
