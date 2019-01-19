@@ -5,6 +5,17 @@ These are downloads for developers and testers of Octave.app. This page contains
 
 If you are an Octave.app user, you probably want to go to our [main Download page](/Download.html) instead.
 
+##  4.4.1 beta5
+
+Beta 5 for Octave.app 4.4.1.
+
+[Octave-4.4.1-beta5.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-beta5/Octave-4.4.1-beta5.dmg)
+
+This one is significant.
+
+#### Changes
+
+* Revert from our hacked Qt back to vanilla Qt in an effort to clear up some crashes and hangs related to saving files from the GUI file editor while you're stopped in them in the debugger.
 
 ##  4.4.1 beta4
 
