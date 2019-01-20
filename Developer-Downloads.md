@@ -5,6 +5,16 @@ These are downloads for developers and testers of Octave.app. This page contains
 
 If you are an Octave.app user, you probably want to go to our [main Download page](/Download.html) instead.
 
+##  4.4.1 beta8
+
+Beta 8 for Octave.app 4.4.1.
+
+[Octave-4.4.1-beta8.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-beta8/Octave-4.4.1-beta8.dmg)
+
+#### Changes
+
+* Makes Cellar files (including Octave's own M-files) read-only to avoid accidental changing of system files when viewing them in the Octave editor.
+
 ##  4.4.1 beta7
 
 Beta 7 for Octave.app 4.4.1.
