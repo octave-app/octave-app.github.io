@@ -5,6 +5,16 @@ These are downloads for developers and testers of Octave.app. This page contains
 
 If you are an Octave.app user, you probably want to go to our [main Download page](/Download.html) instead.
 
+##  4.4.1 beta9
+
+Beta 8 for Octave.app 4.4.1.
+
+[Octave-4.4.1-beta9.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-beta9/Octave-4.4.1-beta9.dmg)
+
+#### Changes
+
+* Built against OpenJDK 11 instead of JDK 8.
+
 ##  4.4.1 beta8
 
 Beta 8 for Octave.app 4.4.1.
