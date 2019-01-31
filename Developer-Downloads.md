@@ -13,7 +13,7 @@ Beta 8 for Octave.app 4.4.1.
 
 #### Changes
 
-* Built against OpenJDK 11 instead of JDK 8.
+* Built against OpenJDK 11 instead of Oracle JDK 8.
 
 ##  4.4.1 beta8
 
