@@ -13,12 +13,12 @@ All Octave.app releases are available on the [Downloads](/Download.html) page.
 
 When running Octave.app for the first time, instead of just double-clicking it, you will need to right-click on it and choose "Open", so you get a dialog asking you if you really want to run it, since it's from an unidentified developer. This is because the app is not signed. This is something we're working on.
 
-If you're feeling adventurous, beta and pre-release versions can be found on the [Developer Downloads](/Developer-Downloads.html) page. We're currently posting version 4.4.1 betas.
+If you're feeling adventurous, beta and pre-release versions can be found on the [Developer Downloads](/Developer-Downloads.html) page.
 
 ## Requirements
 
 * macOS, version 10.11 El Capitan or newer
-* Java JDK 1.8, if you want to use Java
+* OpenJDK 11, if you want to use Java
   * The exact version of the JDK required varies with the version of Octave.app; see the [Downloads](/Download.html) page for exact versions.
 * MacTeX, if you want the **help** command to work properly for Octave Forge packages.
 
