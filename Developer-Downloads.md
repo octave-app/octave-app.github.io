@@ -5,6 +5,20 @@ These are downloads for developers and testers of Octave.app. This page contains
 
 If you are an Octave.app user, you probably want to go to our [main Download page](/Download.html) instead.
 
+# Current 5.x Series Releases
+
+####  Changes
+
+A Java JDK is now bundled with the Octave.app installation, so you no longer have to download and install a separate JDK yourself to enable Java support in Octave.
+
+## 5.1.0 beta1
+
+Beta 1 for Octave.app 5.1.0.
+
+[Octave-5.1.0-beta1.dmg](https://github.com/octave-app/octave-app/releases/download/v5.1.0-beta1/Octave-5.1.0-beta1.dmg)
+
+# Older 4.x Series Releases
+
 ##  4.4.1 RC2
 
 Release Candidate 2 for Octave.app 4.4.1.

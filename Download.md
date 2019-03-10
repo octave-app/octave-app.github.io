@@ -3,7 +3,7 @@ Octave.app Downloads
 
 This page contains all the releases of Octave.app. If you're not sure which one to get, just grab the latest version, from the top of the page.
 
-For betas and prereleases, see [Developer Downloads](/Developer-Downloads.html).
+For betas and prereleases, including the new 5.x series see [Developer Downloads](/Developer-Downloads.html).
 
 ## Installation Notes
 
