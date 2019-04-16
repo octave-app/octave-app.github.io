@@ -11,7 +11,16 @@ If you are an Octave.app user, you probably want to go to our [main Download pag
 
 A Java JDK is now bundled with the Octave.app installation, so you no longer have to download and install a separate JDK yourself to enable Java support in Octave.
 
-## 5.1.0 beta2
+## 5.1.0 beta 3
+
+Beta 3 for Octave.app 5.1.0.
+
+* Downgrades Qt to 5.11.2 (in the hopes that this fixes stability problems in the GUI).
+* Built on macOS 10.12 for wider OS version support.
+
+[Octave-5.1.0-beta3.dmg](https://github.com/octave-app/octave-app/releases/download/v5.1.0-beta3/Octave-5.1.0-beta3.dmg)
+
+## 5.1.0 beta 2
 
 Beta 2 for Octave.app 5.1.0.
 
@@ -19,7 +28,7 @@ Upgrades Qt to 5.12.2.
 
 [Octave-5.1.0-beta2.dmg](https://github.com/octave-app/octave-app/releases/download/v5.1.0-beta2/Octave-5.1.0-beta2.dmg)
 
-## 5.1.0 beta1
+## 5.1.0 beta 1
 
 Beta 1 for Octave.app 5.1.0.
 
