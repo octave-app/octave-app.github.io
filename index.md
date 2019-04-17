@@ -62,6 +62,4 @@ For help with Octave.app, please head to the [octave-app GitHub repo](https://gi
 
 ## Acknowledgements
 
-Octave.app is powered by [Homebrew](https://brew.sh).
-
-![Homebrew logo](images/homebrew-256x256.png)
+Octave.app is powered by [Homebrew](https://brew.sh). ![Homebrew logo](images/homebrew-128x128.png)
