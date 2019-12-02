@@ -15,20 +15,16 @@ We're working on fixing this by getting signed releases. Sorry for the inconveni
 
 This is probably the one you want.
 
-###  Octave 4.4.1
+###  Octave 4.4.1 u1
 
-Download: [Octave-4.4.1.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1/Octave-4.4.1.dmg)
+Download: [Octave-4.4.1.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-u1/Octave-4.4.1-u1.dmg)
 
 Release Notes: [Octave 4.4.1 Release Notes](https://www.gnu.org/software/octave/news/release/2018/08/09/octave-4.4.1-released.html)
-
-##### Java requirements:
-
-You must have exactly OpenJDK 11.0.2+9 installed, due to how the Octave build and Java detection system works. (This was the latest release of OpenJDK at the time Octave.app 4.4.1 was built.)
 
 ##### Known bugs:
 
 * Test suite may hang when run in GUI [Bug #21](https://github.com/octave-app/octave-app-bundler/issues/21)
-* octfiles are not compatible with Octaves installed at different paths [Bug #43](https://github.com/octave-app/octave-app-bundler/issues/43)
+* oct-files are not compatible with Octaves installed at different paths [Bug #43](https://github.com/octave-app/octave-app-bundler/issues/43)
 
 ##  Older Releases
 
