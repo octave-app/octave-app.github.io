@@ -36,6 +36,12 @@ Beta 1 for Octave.app 5.1.0.
 
 # Older 4.x Series Releases
 
+##  4.4.1-u1 beta2
+
+Beta 2 for Octave.app 4.4.1-u1.
+
+[Octave-4.4.1-u1-beta2.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-u1-beta2/Octave-4.4.1-u1-beta2.dmg)
+
 ##  4.4.1 RC2
 
 Release Candidate 2 for Octave.app 4.4.1.

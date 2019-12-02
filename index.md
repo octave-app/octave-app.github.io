@@ -1,3 +1,6 @@
+
+| The Octave.app maintainers have released a [statement regarding Richard Stallman](2019/10/09/statement-on-stallman.html). |
+
 Octave.app
 ==========
 
