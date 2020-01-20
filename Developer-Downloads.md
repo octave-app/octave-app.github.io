@@ -20,21 +20,14 @@ Beta 3 for Octave.app 5.1.0.
 
 [Octave-5.1.0-beta3.dmg](https://github.com/octave-app/octave-app/releases/download/v5.1.0-beta3/Octave-5.1.0-beta3.dmg)
 
-## 5.1.0 beta 2
-
-Beta 2 for Octave.app 5.1.0.
-
-Upgrades Qt to 5.12.2.
-
-[Octave-5.1.0-beta2.dmg](https://github.com/octave-app/octave-app/releases/download/v5.1.0-beta2/Octave-5.1.0-beta2.dmg)
-
-## 5.1.0 beta 1
-
-Beta 1 for Octave.app 5.1.0.
-
-[Octave-5.1.0-beta1.dmg](https://github.com/octave-app/octave-app/releases/download/v5.1.0-beta1/Octave-5.1.0-beta1.dmg)
 
 # Older 4.x Series Releases
+
+##  4.4.1-u2 beta1
+
+Beta 1 for Octave.app 4.4.1-u2. This update just includes a hack to Qt to fix spurious "FSEvents sync assertion failed" warnings in the command window.
+
+[Octave-4.4.1-u2-beta1.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-u2-beta1/Octave-4.4.1-u2-beta1.dmg)
 
 ##  4.4.1-u1 beta2
 
@@ -42,17 +35,6 @@ Beta 2 for Octave.app 4.4.1-u1.
 
 [Octave-4.4.1-u1-beta2.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-u1-beta2/Octave-4.4.1-u1-beta2.dmg)
 
-##  4.4.1 RC2
-
-Release Candidate 2 for Octave.app 4.4.1.
-
-[Octave-4.4.1-RC2.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-RC2/Octave-4.4.1-RC2.dmg)
-
-##  4.4.1 beta9
-
-Beta 8 for Octave.app 4.4.1.
-
-[Octave-4.4.1-beta9.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-beta9/Octave-4.4.1-beta9.dmg)
 
 #### Changes
 
