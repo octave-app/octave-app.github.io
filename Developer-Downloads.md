@@ -4,6 +4,8 @@ These are downloads for developers and testers of Octave.app. This page contains
 
 If you are an Octave.app user, you probably want to go to our [main Download page](/Download.html) instead.
 
+The full release history, including all beta releases, can be found on [our GitHub Releases page](https://github.com/octave-app/octave-app/releases).
+
 ## Current 5.x Series Releases
 
 ### Changes in 5.x
