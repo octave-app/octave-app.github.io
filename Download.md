@@ -37,7 +37,11 @@ Release Notes: [Octave 4.4.0 Release Notes](https://www.gnu.org/software/octave/
 
 #### Java requirements
 
+If you want Java to work inside Octave.app, you need to install a particular version of Java.
+
 The Java 1.8 you have installed must be exactly `jdk1.8.0_181.jdk`, due to how the Octave build and Java detection system works. (This was the latest release of JDK 1.8 at the time Octave.app 4.4.0 was built.) You can download it [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+
+If you do not care about Java working inside your Octave.app, you can ignore this JDK requirement entirely.
 
 #### Known bugs
 

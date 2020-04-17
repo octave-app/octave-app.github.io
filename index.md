@@ -17,8 +17,6 @@ If you're feeling adventurous, beta and pre-release versions can be found on the
 ## Requirements
 
 * macOS, version 10.11 El Capitan or newer
-* OpenJDK 11, if you want to use Java
-  * The exact version of the JDK required varies with the version of Octave.app; see the [Downloads](/Download.html) page for exact versions.
 * MacTeX, if you want the **help** command to work properly for Octave Forge packages.
 
 ## License
