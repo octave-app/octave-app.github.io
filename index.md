@@ -1,8 +1,4 @@
-
-| The Octave.app maintainers have released a [statement regarding Richard Stallman](2019/10/09/statement-on-stallman.html). |
-
-Octave.app
-==========
+# Octave.app
 
 Octave.app is a project to bundle and distribute [GNU Octave](https://www.gnu.org/software/octave/) as a native Mac GUI application. This makes it easy to install and use GNU Octave on Mac.
 
@@ -37,7 +33,7 @@ GNU Octave itself is GPL. Its dependencies are available under various FLOSS lic
 
 To install Octave.app using Homebrew Cask:
 
-```
+```bash
 brew tap octave-app/octave-app
 brew cask install octave-app
 ```
@@ -48,14 +44,14 @@ NOTE: This is not the normal way to install Octave.app! Unless you have a partic
 
 If you want to build and install our Qt-enabled Octave build via Homebrew instead of using the Octave.app distribution, you can do this by setting up Homebrew as normal, and doing the following:
 
-```
+```bash
 brew tap octave-app/octave-app-bases
 brew install octave-octave-app
 ```
 
 If you have a previous `octave` build from the regular Homebrew or [dpo/openblas](https://github.com/dpo/homebrew-openblas) formulae, you need to unlink it first with `brew unlink octave`.
 
-##  People and Support
+## People and Support
 
 [Sebastian Schoeps](https://github.com/schoeps) is the original author and maintainer.
 
