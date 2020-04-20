@@ -16,6 +16,8 @@ This is probably the one you want.
 
 ### Octave 4.4.1 u1
 
+Released Dec 2, 2019.
+
 Download: [Octave-4.4.1.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-u1/Octave-4.4.1-u1.dmg)
 
 Release Notes: [Octave 4.4.1 Release Notes](https://www.gnu.org/software/octave/news/release/2018/08/09/octave-4.4.1-released.html)
@@ -30,6 +32,8 @@ Release Notes: [Octave 4.4.1 Release Notes](https://www.gnu.org/software/octave/
 You probably don't want these.
 
 ### Octave 4.4.0
+
+Released Dec 4, 2018.
 
 Download: [Octave-4.4.0.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.0/Octave-4.4.0.dmg)
 

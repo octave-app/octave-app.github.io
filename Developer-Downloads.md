@@ -14,7 +14,7 @@ A Java JDK is now bundled with the Octave.app installation, so you no longer hav
 
 ### 5.1.0 beta 3
 
-Beta 3 for Octave.app 5.1.0.
+Beta 3 for Octave.app 5.1.0, released April 15, 2019.
 
 * Downgrades Qt to 5.11.2 (in the hopes that this fixes stability problems in the GUI).
 * Built on macOS 10.12 for wider OS version support.
@@ -25,7 +25,7 @@ Beta 3 for Octave.app 5.1.0.
 
 ### 4.4.1-u2 beta 3
 
-Beta 3 for Octave.app 4.4.1-u2.
+Beta 3 for Octave.app 4.4.1-u2, released March 9, 2020.
 
 [Octave-4.4.1-u2-beta3.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-u2-beta3/Octave-4.4.1-u2-beta3.dmg)
 
