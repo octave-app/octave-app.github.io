@@ -12,14 +12,14 @@ The full release history, including all beta releases, can be found on [our GitH
 
 A Java JDK is now bundled with the Octave.app installation, so you no longer have to download and install a separate JDK yourself to enable Java support in Octave.
 
-### 5.1.0 beta 3
+### 5.2.0 beta 2
 
-Beta 3 for Octave.app 5.1.0, released April 15, 2019.
+Beta 2 for Octave.app 5.2.0, released April 25, 2020.
 
-* Downgrades Qt to 5.11.2 (in the hopes that this fixes stability problems in the GUI).
-* Built on macOS 10.12 for wider OS version support.
+* Built against Qt 5.14.2
+* 700 MB smaller install (by excluding Rust, which is a build-time-only dependency)
 
-[Octave-5.1.0-beta3.dmg](https://github.com/octave-app/octave-app/releases/download/v5.1.0-beta3/Octave-5.1.0-beta3.dmg)
+[Octave-5.2.0-beta2.dmg](https://github.com/octave-app/octave-app/releases/download/v5.2.0-beta2/Octave-5.2.0-beta2.dmg)
 
 ## Older 4.x Series Releases
 
