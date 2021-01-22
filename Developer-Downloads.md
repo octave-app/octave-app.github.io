@@ -6,7 +6,15 @@ If you are an Octave.app user, you probably want to go to our [main Download pag
 
 The full release history, including all beta releases, can be found on [our GitHub Releases page](https://github.com/octave-app/octave-app/releases).
 
-## Current 5.x Series Releases
+## Current 6.x Series Releases
+
+### 6.1.0 beta 1
+
+[Beta 1](https://github.com/octave-app/octave-app/releases/tag/v6.1.0-beta1) for Octave.app 6.1.0.
+
+[Octave-6.1.0-beta1.dmg](https://github.com/octave-app/octave-app/releases/download/v6.1.0-beta1/Octave-6.1.0-beta1.dmg)
+
+## Old 5.x Series Releases
 
 ### Changes in 5.x
 

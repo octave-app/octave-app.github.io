@@ -14,6 +14,18 @@ We're working on fixing this by getting signed releases. Sorry for the inconveni
 
 This is probably the one you want.
 
+### Octave 6.1.0
+
+Released Jan 22, 2021.
+
+Download: [Octave-6.1.0.dmg](https://github.com/octave-app/octave-app/releases/download/v6.1.0/Octave-6.1.0.dmg)
+
+Release Notes: [Octave 6.1.0 Release Notes](https://www.gnu.org/software/octave/NEWS-6.1.html)
+
+## Older Releases
+
+You probably don't want these.
+
 ### Octave 4.4.1 u1
 
 Released Dec 2, 2019.
@@ -26,10 +38,6 @@ Release Notes: [Octave 4.4.1 Release Notes](https://www.gnu.org/software/octave/
 
 * Test suite may hang when run in GUI [Bug #21](https://github.com/octave-app/octave-app-bundler/issues/21)
 * oct-files are not compatible with Octaves installed at different paths [Bug #43](https://github.com/octave-app/octave-app-bundler/issues/43)
-
-## Older Releases
-
-You probably don't want these.
 
 ### Octave 4.4.0
 
