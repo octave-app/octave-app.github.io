@@ -33,7 +33,7 @@ To install Octave.app using Homebrew Cask:
 
 ```bash
 brew tap octave-app/octave-app
-brew cask install octave-app
+brew install --cask octave-app
 ```
 
 ### Installing directly with Homebrew
