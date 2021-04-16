@@ -16,7 +16,8 @@ If you're feeling adventurous, beta and pre-release versions can be found on the
 
 ## Requirements
 
-* macOS, version 10.11 El Capitan or newer
+* macOS, version 10.14 Mojave or newer
+  * (Some older versions of Octave.app support older versions of macOS)
 * MacTeX, if you want the **help** command to work properly for Octave Forge packages.
 
 ## License
@@ -33,7 +34,7 @@ To install Octave.app using Homebrew Cask:
 
 ```bash
 brew tap octave-app/octave-app
-brew cask install octave-app
+brew install --cask octave-app
 ```
 
 ### Installing directly with Homebrew
@@ -53,10 +54,10 @@ If you have a previous `octave` build from the regular Homebrew or [dpo/openblas
 
 [Sebastian Schoeps](https://github.com/schoeps) is the original author and maintainer.
 
-[Andrew Janke](https://apjanke.net) is a maintainer.
+[Andrew Janke](https://apjanke.net) is the current primary maintainer.
 
 For help with Octave.app, please head to the [octave-app GitHub repo](https://github.com/octave-app/octave-app) and see its issue tracker. Andrew also sometimes hangs out on the `#octave` channel on [freenode IRC](https://freenode.net/).
 
-## Acknowledgements
+## Acknowledgments
 
 Octave.app is powered by [Homebrew](https://brew.sh). ![Homebrew logo](images/homebrew-128x128.png)

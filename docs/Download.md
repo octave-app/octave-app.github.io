@@ -14,21 +14,35 @@ We're working on fixing this by getting signed releases. Sorry for the inconveni
 
 This is probably the one you want.
 
-### Octave 6.1.0
+### Octave 6.2.0
 
-Released Jan 22, 2021.
+Released April 16, 2021.
 
-Download: [Octave-6.1.0.dmg](https://github.com/octave-app/octave-app/releases/download/v6.1.0/Octave-6.1.0.dmg)
+Requires macOS 10.14 or newer.
 
-Release Notes: [Octave 6.1.0 Release Notes](https://www.gnu.org/software/octave/NEWS-6.1.html)
+Download: [Octave-6.2.0.dmg](https://github.com/octave-app/octave-app/releases/download/v6.2.0/Octave-6.2.0.dmg)
+
+Announcement: [Octave 6.2.0 Announcement](https://www.gnu.org/software/octave/news/release/2021/02/20/octave-6.2.0-released.html)
 
 ## Older Releases
 
 You probably don't want these.
 
+### Octave 6.1.0
+
+Released Jan 22, 2021.
+
+Requires macOS 10.13 or newer.
+
+Download: [Octave-6.1.0.dmg](https://github.com/octave-app/octave-app/releases/download/v6.1.0/Octave-6.1.0.dmg)
+
+Release Notes: [Octave 6.1.0 Release Notes](https://www.gnu.org/software/octave/NEWS-6.1.html)
+
 ### Octave 4.4.1 u1
 
 Released Dec 2, 2019.
+
+I forgot which versions of macOS it supports.
 
 Download: [Octave-4.4.1.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-u1/Octave-4.4.1-u1.dmg)
 
@@ -49,7 +63,7 @@ Release Notes: [Octave 4.4.0 Release Notes](https://www.gnu.org/software/octave/
 
 #### Java requirements
 
-If you want Java to work inside Octave.app, you need to install a particular version of Java.
+If you want Java to work inside Octave.app for Octave.app 4.4.0, you need to install a particular version of Java.
 
 The Java 1.8 you have installed must be exactly `jdk1.8.0_181.jdk`, due to how the Octave build and Java detection system works. (This was the latest release of JDK 1.8 at the time Octave.app 4.4.0 was built.) You can download it [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
