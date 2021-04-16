@@ -68,6 +68,6 @@ For help with Octave.app, please head to the [octave-app GitHub repo](https://gi
 
 Octave.app is powered by [Homebrew](https://brew.sh). ![Homebrew logo](images/homebrew-128x128.png)
 
-Octave.app's M1 build server is provided by MacStadium.
+Octave.app's M1 build server is provided by [MacStadium](https://www.macstadium.com/).
 
-![MacStadium Developer Logo](images/MacStadium-developerlogo.png)
+![MacStadium Developer Logo](images/MacStadium-developerlogo-abitsmaller.png)
