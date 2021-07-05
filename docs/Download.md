@@ -42,9 +42,9 @@ Release Notes: [Octave 6.1.0 Release Notes](https://www.gnu.org/software/octave/
 
 Released Dec 2, 2019.
 
-I forgot which versions of macOS it supports.
+I forgot which versions of macOS this supports; probably 10.13 and later.
 
-Download: [Octave-4.4.1.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-u1/Octave-4.4.1-u1.dmg)
+Download: [Octave-4.4.1-u1.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1-u1/Octave-4.4.1-u1.dmg)
 
 Release Notes: [Octave 4.4.1 Release Notes](https://www.gnu.org/software/octave/news/release/2018/08/09/octave-4.4.1-released.html)
 
@@ -52,6 +52,16 @@ Release Notes: [Octave 4.4.1 Release Notes](https://www.gnu.org/software/octave/
 
 * Test suite may hang when run in GUI [Bug #21](https://github.com/octave-app/octave-app-bundler/issues/21)
 * oct-files are not compatible with Octaves installed at different paths [Bug #43](https://github.com/octave-app/octave-app-bundler/issues/43)
+
+### Octave 4.4.1
+
+Released Feb 19, 2019.
+
+I forgot which versions of macOS this supports; probably 10.13 and later.
+
+Download: [Octave-4.4.1.dmg](https://github.com/octave-app/octave-app/releases/download/v4.4.1/Octave-4.4.1.dmg)
+
+Release Notes: [Octave 4.4.1 Release Notes](https://www.gnu.org/software/octave/news/release/2018/08/09/octave-4.4.1-released.html)
 
 ### Octave 4.4.0
 
