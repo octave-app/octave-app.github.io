@@ -56,13 +56,19 @@ brew install octave-octave-app
 
 If you have a previous `octave` build from the regular Homebrew or [dpo/openblas](https://github.com/dpo/homebrew-openblas) formulae, you need to unlink it first with `brew unlink octave`.
 
-## People and Support
+## People, Support, and Source Code
 
 [Sebastian Schoeps](https://github.com/schoeps) is the original author and maintainer.
 
 [Andrew Janke](https://apjanke.net) is the current primary maintainer.
 
 For help with Octave.app, please head to the [octave-app GitHub repo](https://github.com/octave-app/octave-app) and see its issue tracker. Andrew also sometimes hangs out on the `#octave` channel on [freenode IRC](https://freenode.net/).
+
+The full code for all the projects associated with Octave.app is in the [octave-app organization on GitHub](https://github.com/octave-app). The major parts are:
+
+* [octave-app](https://github.com/octave-app/octave-app), which publishes the Octave.app distribution itself.
+* [octave-app-bundler](https://github.com/octave-app/octave-app-bundler), the tool that builds Octave.app from its sources and dependencies.
+* [homebrew-octave-app](https://github.com/octave-app/homebrew-octave-app), a [Homebrew Tap](https://docs.brew.sh/Taps) that holds the formulae for building the custom Octave.app-specific versions of its dependencies.
 
 ## Acknowledgments
 
