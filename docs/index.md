@@ -62,7 +62,7 @@ If you have a previous `octave` build from the regular Homebrew or [dpo/openblas
 
 [Andrew Janke](https://apjanke.net) is the current primary maintainer.
 
-For help with Octave.app, please head to the [octave-app GitHub repo](https://github.com/octave-app/octave-app) and see its issue tracker. Andrew also sometimes hangs out on the `#octave` channel on [freenode IRC](https://freenode.net/).
+For help with Octave.app, please head to the [octave-app GitHub repo](https://github.com/octave-app/octave-app) and see its issue tracker. Andrew also sometimes hangs out on the `#octave` channel on [Libera IRC](https://libera.chat/).
 
 The full code for all the projects associated with Octave.app is in the [octave-app organization on GitHub](https://github.com/octave-app). The major parts are:
 
