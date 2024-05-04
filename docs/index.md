@@ -10,7 +10,28 @@ Our goal is to make ready-to-use Octave.app installers available to the public.
 
 ### TL;DR
 
-[Click here](https://github.com/octave-app/octave-app/releases/download/v6.2.0/Octave-6.2.0.dmg) to get Octave.app 6.2.0, the current release.
+[Click here](https://github.com/octave-app/octave-app/releases/download/v8.4.0/Octave-8.4.0.dmg) to get Octave.app 8.4.0, the latest release. (Or [click here](https://github.com/octave-app/octave-app/releases/download/v8.4.0/Octave-8.4.0-Intel.dmg) if you're using an older Intel-based Mac.)
+
+Then do `xattr -c` on the downloaded file, and then open it and drag `Octave-8.4.0` to `Applications` to install it.
+
+#### IMPORTANT: Special Installation Instructions!
+
+These installers require special installation steps, due to security measures in recent macOS releases.
+
+Once you download the installer DMG file, and before opening it to do the installation, you must use `xattr` to clear the "quarantine" on it. To do this, open Terminal, and run the following:
+
+```text
+$ cd Downloads
+$ xattr -c Octave-*.dmg
+```
+
+Then you can double-click the DMG file to open it and do the installation.
+
+If you don't do this, then when you try to run Octave-8.4.0 from the Applications folder, you may get an error window saying "This app is damaged and should be moved to the trash" and it won't run.
+
+Sorry for the inconvenience. I haven't figured out a better way to deal with this yet.
+
+Details on the release page: [Octave.app 8.4.0 release](https://github.com/octave-app/octave-app/releases/tag/v8.4.0).
 
 ### Details
 
@@ -18,11 +39,11 @@ All Octave.app releases are available on the [Downloads](/Download.html) page.
 
 When running Octave.app for the first time, instead of just double-clicking it, you will need to right-click on it and choose "Open", so you get a dialog asking you if you really want to run it, since it's from an unidentified developer. This is because the app is not signed. This is something we're working on.
 
-If you're feeling adventurous, beta and pre-release versions can be found on the [Developer Downloads](/Developer-Downloads.html) page.
+If you're feeling adventurous, some beta and pre-release versions can be found on the [Developer Downloads](/Developer-Downloads.html) page.
 
 ## Requirements
 
-* macOS, version 10.14 Mojave or newer
+* macOS, version 12 Monterey or newer
   * (Some older versions of Octave.app support older versions of macOS.)
 * MacTeX, if you want the **help** command to work properly for Octave Forge packages
 
@@ -30,7 +51,7 @@ If you're feeling adventurous, beta and pre-release versions can be found on the
 
 Most of Octave.app's code is GPL, with the exception of its Homebrew formula files, which are BSD 2-Clause License.
 
-GNU Octave itself is GPL. Its dependencies are available under various FLOSS licenses.
+GNU Octave itself is GPL. Its dependencies are available under various FLOSS licenses. See the license files in the distribution for details.
 
 ## Alternate Installations
 
@@ -43,7 +64,7 @@ brew tap octave-app/octave-app
 brew install --cask octave-app
 ```
 
-You don't need to do it this way. This is only provided for people who like using Homebrew Casks.
+You don't need to do it this way. This is only provided for people who like using Homebrew Casks instead of downloading a regular installer.
 
 ### Installing directly with Homebrew
 

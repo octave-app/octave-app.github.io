@@ -14,6 +14,47 @@ We're working on fixing this by getting signed releases. Sorry for the inconveni
 
 This is probably the one you want.
 
+### Octave 8.4.0
+
+Released May 3, 2024.
+
+Requires macOS 12 or newer, possibly macOS 14 or newer. (If it doesn't work on macOS 12 or 13, please let us know by [submitting a bug report](https://github.com/octave-app/octave-app/issues).)
+
+NOTE: This requires a special extra step for installation, or the app will be broken. See the "Special Installation Instructions" section below!
+
+With this release, Octave.app now has a native Apple Silicon build available. It's the one without the "-Intel" suffix on the installer file name. If you have a newer Mac, that's the one you want.
+
+#### Downloads
+
+Downloads:
+
+* [Octave-8.4.0.dmg](https://github.com/octave-app/octave-app/releases/download/v8.4.0/Octave-8.4.0.dmg) for Apple Silicon (M1, M2, M3) Macs
+* [Octave-8.4.0-Intel.dmg](https://github.com/octave-app/octave-app/releases/download/v8.4.0/Octave-8.4.0-Intel.dmg) for older Intel Macs
+
+Release page: [Octave.app 8.4.0 Release on GitHub](https://github.com/octave-app/octave-app/releases/tag/v8.4.0)
+
+
+#### IMPORTANT: Special Installation Instructions!
+
+These installers require special installation steps, due to security measures in recent macOS releases.
+
+Once you download the installer DMG file, and before opening it to do the installation, you must use `xattr` to clear the "quarantine" on it. To do this, open Terminal, and run the following:
+
+```text
+$ cd Downloads
+$ xattr -c Octave-*.dmg
+```
+
+Then you can double-click the DMG file to open it and do the installation.
+
+If you don't do this, then when you try to run Octave-8.4.0 from the Applications folder, you may get an error window saying "This app is damaged and should be moved to the trash" and it won't run.
+
+Sorry for the inconvenience. I haven't figured out a better way to deal with this yet.
+
+## Older Releases
+
+You probably don't want these.
+
 ### Octave 6.2.0
 
 Released April 16, 2021.
@@ -23,20 +64,6 @@ Requires macOS 10.14 or newer.
 Download: [Octave-6.2.0.dmg](https://github.com/octave-app/octave-app/releases/download/v6.2.0/Octave-6.2.0.dmg)
 
 Announcement: [Octave 6.2.0 Announcement](https://www.gnu.org/software/octave/news/release/2021/02/20/octave-6.2.0-released.html)
-
-## Older Releases
-
-You probably don't want these.
-
-### Octave 6.1.0
-
-Released Jan 22, 2021.
-
-Requires macOS 10.13 or newer.
-
-Download: [Octave-6.1.0.dmg](https://github.com/octave-app/octave-app/releases/download/v6.1.0/Octave-6.1.0.dmg)
-
-Release Notes: [Octave 6.1.0 Release Notes](https://www.gnu.org/software/octave/NEWS-6.1.html)
 
 ### Octave 4.4.1 u1
 
