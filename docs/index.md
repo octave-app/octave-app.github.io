@@ -55,17 +55,6 @@ GNU Octave itself is GPL. Its dependencies are available under various FLOSS lic
 
 ## Alternate Installations
 
-### Installing with Homebrew Cask
-
-To install Octave.app using Homebrew Cask:
-
-```bash
-brew tap octave-app/octave-app
-brew install --cask octave-app
-```
-
-You don't need to do it this way. This is only provided for people who like using Homebrew Casks instead of downloading a regular installer.
-
 ### Installing directly with Homebrew
 
 NOTE: This is not the normal way to install Octave.app! Unless you have a particular reason for doing this, please just [download and install the regular Octave.app distribution](/Download.html) instead.
