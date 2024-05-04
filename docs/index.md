@@ -64,7 +64,7 @@ Then you can run it by calling `octave-octapp` (instead of plain `octave`).
 
 [Andrew Janke](https://apjanke.net) is the current primary maintainer.
 
-For help with Octave.app, please head to the [octave-app GitHub repo](https://github.com/octave-app/octave-app) and see its issue tracker. Andrew also sometimes hangs out on the `#octave` channel on [Libera IRC](https://libera.chat/), and on the [GNU Octave Discourse](https://octave.discourse.group/).
+For help with Octave.app, please head to the [octave-app GitHub repo](https://github.com/octave-app/octave-app) and see its issue tracker. Andrew also sometimes hangs out on the [GNU Octave Discourse](https://octave.discourse.group/).
 
 The full code for all the projects associated with Octave.app is in the [octave-app organization on GitHub](https://github.com/octave-app). The major parts are:
 
