@@ -57,7 +57,7 @@ GNU Octave itself is GPL. Its dependencies are available under various FLOSS lic
 
 ### Installing directly with Homebrew
 
-NOTE: This is not the normal way to install Octave.app! Unless you have a particular reason for doing this, please just [download and install the regular Octave.app distribution](/Download.html) instead.
+NOTE: This is not the normal way to install Octave.app! Unless you have a particular reason for doing this, please just [download and install the regular Octave.app distribution](/Download.html) instead. If you are not familiar with advanced Homebrew administration, this `brew install` method will probably not work out well for you.
 
 If you want to build and install our Qt-enabled Octave via Homebrew instead of using the Octave.app distribution, you can do this by setting up Homebrew as normal, and doing the following:
 
