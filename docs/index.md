@@ -68,9 +68,9 @@ Then you can run it by calling `octave-octapp` (instead of plain `octave`).
 
 ## People, Support, and Source Code
 
-[Sebastian Schoeps](https://github.com/schoeps) is the original author and maintainer.
-
 [Andrew Janke](https://apjanke.net) is the current primary maintainer.
+
+[Sebastian Schoeps](https://github.com/schoeps) is the original author and maintainer.
 
 For help with Octave.app, please head to the [octave-app GitHub repo](https://github.com/octave-app/octave-app) and see its issue tracker. Andrew also sometimes hangs out on the [GNU Octave Discourse](https://octave.discourse.group/).
 
