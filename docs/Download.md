@@ -2,17 +2,76 @@
 
 This page contains all the releases of Octave.app. If you're not sure which one to get, just grab the latest version, from the top of the page.
 
-For betas and prereleases, including the new 5.x series see [Developer Downloads](/Developer-Downloads.html).
+For betas and prereleases, see [Developer Downloads](/Developer-Downloads.html).
+
+If you would like to receive notifications about new Octave.app releases, you can subscribe to the [Octave.app Announcements](https://github.com/octave-app/octave-app/issues/1) and [Octave.app Dev News](https://github.com/octave-app/octave-app/issues/289) issues on [the octave-app GitHub repo](https://github.com/octave-app/octave-app).
+
+Since version 8.4.0, Octave.app has a native Apple Silicon build available. It's the one without the "-Intel" suffix on the installer file name. If you have a newer Mac, that's the one you want. (The Intel build will still run on Apple Silicon Macs, but it will be slower.)
 
 ## Installation Notes
 
 Our apps are not signed yet. This means that the first time you run them, you must right-click Octave.app and choose "Open" instead of just double-clicking it, and then choose "Run" from the dialog that pops up, when it asks you if you want to run an app from an "unkown developer".
 
-We're working on fixing this by getting signed releases. Sorry for the inconvenience.
+We're working on fixing this by making code-signed releases. Sorry for the inconvenience.
+
+## IMPORTANT: Special Installation Instructions!
+
+These installers require special installation steps, due to security measures in recent macOS releases.
+
+Once you download the installer DMG file, and before opening it to do the installation, you must use `xattr` to clear the "quarantine" on it. To do this, open Terminal, and run the following:
+
+```text
+$ cd Downloads
+$ xattr -c Octave-*.dmg
+```
+
+Then you can double-click the DMG file to open it and do the installation.
+
+If you don't do this, then when you try to run Octave-8.4.0 from the Applications folder, you may get an error window saying "This app is damaged and should be moved to the trash" and it won't run.
+
+Sorry for the inconvenience. I haven't figured out a better way to deal with this yet.
 
 ## Current Release
 
 This is probably the one you want.
+
+### Octave.app 9.2
+
+Released July 25, 2024.
+
+Requires macOS 12 or newer. (If it doesn't work on macOS 12 or 13, please let us know by [submitting a bug report](https://github.com/octave-app/octave-app/issues).)
+
+NOTE: This requires a special extra step for installation, or the app will be broken. See the "Special Installation Instructions" section below!
+
+#### Downloads
+
+Downloads:
+
+* [Octave-9.2.dmg](https://github.com/octave-app/octave-app/releases/download/v9.2/Octave-9.2.dmg) for Apple Silicon (M1, M2, M3) Macs
+* [Octave-9.2-Intel.dmg](https://github.com/octave-app/octave-app/releases/download/v9.2/Octave-9.2-Intel.dmg) for older Intel Macs
+
+Release page: [Octave.app 9.2 Release on GitHub](https://github.com/octave-app/octave-app/releases/tag/v9.2)
+
+## Older Releases
+
+You probably don't want these.
+
+### Octave.app 9.1
+
+Released July 25, 2024.
+
+Requires macOS 12 or newer. (If it doesn't work on macOS 12 or 13, please let us know by [submitting a bug report](https://github.com/octave-app/octave-app/issues).)
+
+NOTE: This requires a special extra step for installation, or the app will be broken. See the "Special Installation Instructions" section below!
+
+#### Downloads
+
+Downloads:
+
+* [Octave-9.1.dmg](https://github.com/octave-app/octave-app/releases/download/v9.1/Octave-9.1.dmg) for Apple Silicon (M1, M2, M3) Macs
+* [Octave-9.1-Intel.dmg](https://github.com/octave-app/octave-app/releases/download/v9.1/Octave-9.1-Intel.dmg) for older Intel Macs
+
+Release page: [Octave.app 9.1 Release on GitHub](https://github.com/octave-app/octave-app/releases/tag/v9.1)
 
 ### Octave 8.4.0
 
@@ -32,28 +91,6 @@ Downloads:
 * [Octave-8.4.0-Intel.dmg](https://github.com/octave-app/octave-app/releases/download/v8.4.0/Octave-8.4.0-Intel.dmg) for older Intel Macs
 
 Release page: [Octave.app 8.4.0 Release on GitHub](https://github.com/octave-app/octave-app/releases/tag/v8.4.0)
-
-
-#### IMPORTANT: Special Installation Instructions!
-
-These installers require special installation steps, due to security measures in recent macOS releases.
-
-Once you download the installer DMG file, and before opening it to do the installation, you must use `xattr` to clear the "quarantine" on it. To do this, open Terminal, and run the following:
-
-```text
-$ cd Downloads
-$ xattr -c Octave-*.dmg
-```
-
-Then you can double-click the DMG file to open it and do the installation.
-
-If you don't do this, then when you try to run Octave-8.4.0 from the Applications folder, you may get an error window saying "This app is damaged and should be moved to the trash" and it won't run.
-
-Sorry for the inconvenience. I haven't figured out a better way to deal with this yet.
-
-## Older Releases
-
-You probably don't want these.
 
 ### Octave 6.2.0
 

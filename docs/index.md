@@ -2,17 +2,15 @@
 
 Octave.app is a project to bundle and distribute [GNU Octave](https://www.gnu.org/software/octave/) as a native Mac GUI application. This makes it easy to install and use GNU Octave on Mac.
 
-We are not an official GNU project, or part of GNU Octave. We are a rag-tag band of misfits who've written a tool to download and build GNU Octave and its dependencies and bundle them as a Mac app.
-
-Our goal is to make ready-to-use Octave.app installers available to the public.
+We are not an official GNU project, or part of GNU Octave. We are a rag-tag band of misfits who've written a tool to build GNU Octave and its dependencies and bundle them as a Mac app. Our goal is to make ready-to-use Octave.app installers available to the public.
 
 ## Download
 
 ### TL;DR
 
-[Click here](https://github.com/octave-app/octave-app/releases/download/v8.4.0/Octave-8.4.0.dmg) to get Octave.app 8.4.0, the latest release. (Or [click here](https://github.com/octave-app/octave-app/releases/download/v8.4.0/Octave-8.4.0-Intel.dmg) if you're using an older Intel-based Mac.)
+[Click here](https://github.com/octave-app/octave-app/releases/download/v9.2/Octave-9.2.dmg) to get Octave.app 9.2, the latest release. (Or [click here](https://github.com/octave-app/octave-app/releases/download/v9.2/Octave-9.2-Intel.dmg) for the Intel CPU version of the installer if you're using an older Intel-based Mac.)
 
-Then do `xattr -c` on the downloaded file, and then open it and drag `Octave-8.4.0` to `Applications` to install it.
+Once downloaded, *first*, run `xattr -c *.dmg` on the downloaded file, and only then open it and drag `Octave-9.2` to `Applications` to install it.
 
 #### IMPORTANT: Special Installation Instructions!
 
@@ -27,11 +25,11 @@ $ xattr -c Octave-*.dmg
 
 Then you can double-click the DMG file to open it and do the installation.
 
-If you don't do this, then when you try to run Octave-8.4.0 from the Applications folder, you may get an error window saying "This app is damaged and should be moved to the trash" and it won't run.
+If you don't do this, then when you try to run Octave.app from the Applications folder, you may get an error window saying "This app is damaged and should be moved to the trash" and it won't run.
 
 Sorry for the inconvenience. I haven't figured out a better way to deal with this yet.
 
-Details on the release page: [Octave.app 8.4.0 release](https://github.com/octave-app/octave-app/releases/tag/v8.4.0).
+Details on the release page: [Octave.app 9.2 release](https://github.com/octave-app/octave-app/releases/tag/v9.2).
 
 ### Details
 
